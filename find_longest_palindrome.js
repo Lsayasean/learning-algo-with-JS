@@ -1,4 +1,4 @@
-// given a string, find the longest palindrome inside it
+// given a string, find the longest palindrome inside it and return it
 
 function longestPalindromicSubstring(string) {
 	let longest = ""
