@@ -14,7 +14,7 @@ var shuffle = function(nums, n) {
 
     // loop through half since we are pushing 2 array items at a time
     for(let i = 0; i < nums.length/2; i++){
-        //push in the current array index value and the index plus the n  value
+        //push in the current array x1, and y1 and so on
         shuffledArray.push(nums[i], nums[i + n])
     }
     return shuffledArray
