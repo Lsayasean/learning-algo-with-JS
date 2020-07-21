@@ -13,8 +13,8 @@ function invertBinaryTree(tree) {
 		current.left = current.right
         current.right = temp
         // once we perform the swaps we push the left and right branch into queue
-		queue.push(current.right)
 		queue.push(current.left)
+		queue.push(current.right)
 	}
 }
 
